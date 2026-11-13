@@ -1,0 +1,17 @@
+{
+  "name": "automacao-tce-pr",
+  "version": "1.0.0",
+  "description": "Sistema de consulta financeira municipal TCE-PR com banco SQLite histórico 2019–2025",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "express": "5.3.0",
+    "sharp": "0.35.5"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

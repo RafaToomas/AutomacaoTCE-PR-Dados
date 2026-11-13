@@ -1,0 +1,15 @@
+AUTOMAÇÃO TCE-PR — CONSULTA AO BANCO HISTÓRICO
+
+Este projeto utiliza um banco SQLite local com 399 municípios e dados de 2019 a 2025.
+O server.js contém somente as funções necessárias para servir o site, consultar o SQLite,
+calcular indicadores derivados e gerar a exportação Excel com gráfico.
+
+Não há automação Playwright, navegação no TCE-PR nem coleta de dados neste servidor.
+
+Requisitos: Node.js 22.13 ou superior.
+Instalação: npm install
+Execução: npm start
+Endereço: http://localhost:3000
+
+O banco de dados fica em data/tce-pr.sqlite. Faça uma cópia de segurança antes de
+substituir ou atualizar esse arquivo.
